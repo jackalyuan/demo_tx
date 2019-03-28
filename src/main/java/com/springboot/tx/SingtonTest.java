@@ -5,7 +5,7 @@ import java.util.concurrent.Executors;
 
 /**
  * Version : 1.0.0
- * Author : HongKai.wang
+
  * DateTime : 2019/3/2 0:39
  */
 public class SingtonTest {
@@ -32,13 +32,7 @@ public class SingtonTest {
             Thread ta1 = new MyThread();
             service.execute(ta1);
         }
-//        Thread ta1 = new MyThread();
-//        Thread ta2 = new MyThread();
-//        Thread ta3 = new MyThread();
-//
-//        service.execute(ta1);
-//        service.execute(ta2);
-//        service.execute(ta3);
+
 
         service.shutdown();
     }
