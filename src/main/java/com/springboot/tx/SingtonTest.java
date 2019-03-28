@@ -12,6 +12,7 @@ public class SingtonTest {
     private volatile static SingtonTest singtonTest;
 
     private SingtonTest() {
+        System.out.print("测试");
 
     }
 
